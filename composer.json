@@ -1,0 +1,12 @@
+{
+    "name": "asuahsahua/wow-pkgmeta",
+    "description": "Application to download files for Curseforge's .pkgmeta files",
+    "type": "project",
+    "require": {
+        "silex/silex": "^2.0",
+        "twig/twig": "^2.5"
+    },
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "^139.0"
+    }
+}
