@@ -2,9 +2,16 @@
     "name": "asuahsahua/wow-pkgmeta",
     "description": "Application to download files for Curseforge's .pkgmeta files",
     "type": "project",
+    "autoload": {
+        "psr-4": {
+            "WowPkgmeta\\": "src/"
+        }
+    },
     "require": {
         "silex/silex": "^2.0",
-        "twig/twig": "^2.5"
+        "twig/twig": "^2.5",
+        "symfony/yaml": "^4.1",
+        "ext-zip": "*"
     },
     "require-dev": {
         "heroku/heroku-buildpack-php": "^139.0"
