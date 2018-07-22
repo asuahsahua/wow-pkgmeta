@@ -1,1 +1,48 @@
-<h1>It works!</h1>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content=".pkgmeta Dependency Downloader">
+    <meta name="author" content="asuahsahua">
+    <link rel="icon" href="favicon.ico">
+
+    <title>.pkgmeta Dependency Downloader</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body class="bg-light">
+
+    <div class="container">
+      <div class="py-5 text-center">
+        <img class="d-block mx-auto mb-4" src="/img/curseforge-icon.png" alt="" width="72" height="72">
+        <h2>.pkgmeta Dependency Downloader</h2>
+        <p class="lead">This will generate a zip file from a Curseforge .pkgmeta file. This is only designed with WoW addons in mind!</p>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <form class="needs-validation" novalidate>
+            <div class="row">
+              <div class="col-12">
+                <label for="contents">.pkgmeta Contents</label>
+                <textarea class="form-control" id="contents" placeholder="Paste your .pkgmeta contents here" rows="15" required></textarea>
+                <div class="invalid-feedback">
+                  Content is required
+                </div>
+              </div>
+            </div>
+
+            <hr class="mb-4">
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Download Dependencies</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
